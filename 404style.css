@@ -1,0 +1,278 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 1200px;
+}
+
+#Character{
+    top: 200px;
+    animation: character-animate 8s infinite linear;
+}
+
+
+#erorr-4{
+    transform-origin: center;
+transform-box: fill-box;
+    animation: erorr-4-animate 1s infinite linear;
+}
+@keyframes erorr-4-animate{
+    0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scaleY(1.2);
+      }
+        100% {
+            transform: scale(1);
+        }
+  }
+
+  #erorr-0{
+    transform-origin: center;
+transform-box: fill-box;
+    animation: erorr-0-animate 1s infinite linear;
+}
+@keyframes erorr-0-animate{
+    0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scaleY(0.8);
+      }
+        100% {
+            transform: scale(1);
+        }
+  }
+
+  #erorr-4-2{
+    transform-origin: center;
+transform-box: fill-box;
+    animation: erorr-4-2-animate 1s infinite linear;
+}
+@keyframes erorr-4-2-animate{
+    0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scaleY(1.2);
+      }
+        100% {
+            transform: scale(1);
+        }
+  }
+
+
+
+#eyes{
+    top: 200px;
+    animation: eyes-animate 2.5s infinite linear;
+}
+
+@keyframes eyes-animate{
+    49%{
+        opacity: 100%;
+    }  
+    50% {
+        opacity: 0%;
+      }
+      51% {
+          opacity: 100%;
+        }
+  }
+
+  #sange-big-near-404{
+    top: 200px;
+    animation: sange-big-near-404-animate 15s infinite linear;
+    transform-origin: center;
+transform-box: fill-box;
+  }
+
+  @keyframes sange-big-near-404-animate{
+    0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: rotate(50deg);
+        translate:-40px 80px;
+      }
+        100% {
+            transform: translate(0px);
+        }
+  }
+
+
+  #sange-kochak-near-404{
+    top: 200px;
+    animation: sange-kochak-near-404-animate 15s infinite linear;
+    transform-origin: center;
+transform-box: fill-box;
+  }
+
+  @keyframes sange-kochak-near-404-animate{
+    0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: rotate(90deg);
+        translate:-40px 90px;
+      }
+        100% {
+            transform: translate(0px);
+        }
+  }
+
+
+  #mahvare{
+    top: 200px;
+    animation: mahvare-animate 15s infinite linear;
+    transform-origin: center;
+transform-box: fill-box;
+  }
+
+  @keyframes mahvare-animate{
+    0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: rotate(30deg);
+        translate:-40px -80px;
+      }
+        100% {
+            transform: translate(0px);
+        }
+  }
+
+
+
+
+
+@keyframes character-animate{
+    0% {
+        transform: scaleX(1.0);
+      }
+      40% {
+        translate: 30px -7px;
+        transform: rotate(-1deg);
+      }
+      90% {
+          transform: scaleX(0.99);
+          transform: translateX(-2px);
+        }
+        100% {
+          transform: scaleX(1);
+        }
+  }
+
+  #moshrary{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: moshrary-animate 15s infinite linear;
+  }
+
+  
+@keyframes moshrary-animate{
+    0% {
+        transform: rotate(0deg);
+      }
+      50% {
+          transform: rotate(-180deg);
+          translate: 40px -15px;
+        }
+        100% {
+            transform: rotate(-360deg);
+        }
+  }
+
+
+
+  #zohal{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: zohal-animate 15s infinite linear;
+  }
+
+  
+@keyframes zohal-animate{
+    0% {
+        transform: rotate(0deg);
+      }
+      30% {
+          transform: rotate(15deg);
+          translate: 28px -15px;
+        }
+        80% {
+            transform: rotate(-15deg);
+            translate: -20px -15px;
+          }
+        100% {
+            translate: 0px 0px;
+        }
+  }
+
+  #nepton{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: nepton-animate 10s infinite linear;
+  }
+
+  
+@keyframes nepton-animate{
+    0% {
+        transform: rotate(0deg);
+      }
+      30% {
+          transform: rotate(15deg);
+          translate: 10px 25px;
+        }
+        80% {
+            transform: rotate(-15deg);
+            translate: -20px 10px;
+          }
+        100% {
+            translate: 0px 0px;
+        }
+  }
+
+
+  #sange-dor-near-nepton{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: sange-dor-near-nepton-animate 10s infinite linear;
+  }
+
+  @keyframes sange-dor-near-nepton-animate{
+    0% {
+        transform: rotate(0deg);
+      }
+      50% {
+          transform: rotate(-180deg);
+
+        }
+        100% {
+            transform: rotate(-360deg);
+        }
+  }
+
+
+  #sange-dor{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: sange-dor-animate 5s infinite linear;
+  }
+
+  @keyframes sange-dor-animate{
+    0% {
+        transform: rotate(0deg);
+      }
+      50% {
+          transform: rotate(-180deg);
+
+        }
+        100% {
+            transform: rotate(-360deg);
+        }
+  }
