@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 1200px;
+}
+
+
+#group-adamfazaee-error {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation:group-adamfazaee-error-animate 8s infinite linear ;
+  }
+
+  @keyframes group-adamfazaee-error-animate{
+    0% {
+        transform: rotate(0deg);
+      }
+        50% {
+            translate: -20px 20px;
+          }
+        100% {
+            translate: 0px 0px;
+        }
+  }
+
+
