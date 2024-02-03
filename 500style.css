@@ -28,3 +28,78 @@ body{
   }
 
 
+
+  #group-adamfazaee-error {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation:group-adamfazaee-error-animate 8s infinite linear ;
+  }
+
+  @keyframes group-adamfazaee-error-animate{
+    0% {
+        transform: rotate(0deg);
+      }
+        50% {
+            translate: -20px 20px;
+          }
+        100% {
+            translate: 0px 0px;
+        }
+  }
+
+
+/* 
+  #aghab-4{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation:aghab-4-animate 20s infinite linear ;
+  }
+
+  @keyframes aghab-4-animate{
+    0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: rotate(180deg);
+
+      }
+        100% {
+            transform: translate(0px);
+        }
+  }
+
+  #ghabl-ro{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation:ghabl-ro-animate 20s infinite linear ;
+  }
+
+  @keyframes ghabl-ro-animate{
+    0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: rotate(180deg);
+
+      }
+        100% {
+            transform: translate(0px);
+        }
+  } */
+
+#enfejar{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation:enfejar-animate 2s infinite linear ;
+}
+@keyframes enfejar-animate {
+    0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: scale(1.5);
+      }
+        100% {
+            transform: scale(1);
+        }
+}
