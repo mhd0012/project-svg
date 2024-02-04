@@ -103,3 +103,216 @@ body{
             transform: scale(1);
         }
 }
+
+
+#server-bala-rast{
+  transform-origin: center;
+    transform-box: fill-box;
+    animation:server-bala-rast-animate 5s infinite linear ;
+}
+
+@keyframes server-bala-rast-animate {
+  0% {
+    transform: rotate(0deg);
+  }
+    50% {
+      transform: rotate(-5deg);
+        translate: -20px 2px;
+      }
+    100% {
+        translate: 0px 0px;
+    }
+}
+
+#moon{
+  transform-origin: center;
+    transform-box: fill-box;
+    animation:moon-animate 8s infinite linear ;
+}
+
+@keyframes moon-animate {
+  0% {
+    transform: rotate(0deg);
+  }
+    50% {
+        transform: rotate(180deg);
+        translate: 20px 10px;
+      }
+    100% {
+        translate: 0px 0px;
+    }
+}
+
+
+#Saturn{
+  transform-origin: center;
+    transform-box: fill-box;
+    animation:Saturn-animate 12s infinite linear ;
+}
+
+@keyframes Saturn-animate {
+  0% {
+    transform: rotate(0deg);
+  }
+    50% {
+        transform: rotate(-30deg);
+        translate: 70px 40px;
+      }
+    100% {
+        translate: 0px 0px;
+    }
+}
+
+#sim-bargh{
+  transform-origin: left;
+    transform-box: fill-box;
+    animation:sim-bargh-animate 3s infinite linear ;
+}
+
+@keyframes sim-bargh-animate {
+  0% {
+    transform: rotate(0deg);
+    
+  }
+    50% {
+        transform: rotate(-10deg);
+        translate: -1px;
+      }
+      
+    100% {
+        translate: 0px 0px;
+    }
+}
+
+
+
+
+
+
+#error-5{
+  transform-origin: center;
+transform-box: fill-box;
+  animation: error-5-animate 1s infinite linear;
+}
+@keyframes error-5-animate{
+  0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scaleY(1.2);
+    }
+      100% {
+          transform: scale(1);
+      }
+}
+
+#error-0{
+  transform-origin: center;
+transform-box: fill-box;
+  animation: error-0-animate 1s infinite linear;
+}
+@keyframes error-0-animate{
+  0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scaleY(0.8);
+    }
+      100% {
+          transform: scale(1);
+      }
+}
+
+#error-0-1{
+  transform-origin: center;
+transform-box: fill-box;
+  animation: error-0-1-animate 1s infinite linear;
+}
+@keyframes error-0-1-animate{
+  0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scaleY(1.2);
+    }
+      100% {
+          transform: scale(1);
+      }
+}
+
+
+
+#server-chap{
+  transform-origin: center;
+  transform-box: fill-box;
+    animation: server-chap-animate 10s infinite linear;
+}
+@keyframes server-chap-animate{
+  0% {
+    transform: rotate(0deg);
+  }
+    50% {
+        transform: rotate(-20deg);
+        translate:40px -20px;
+      }
+    100% {
+        translate: 0px 0px;
+    }
+}
+
+
+
+#Neptune{
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: Neptune-animate 10s infinite linear ;
+}
+@keyframes Neptune-animate {
+  0%{
+  }
+  50%{
+    transform: rotate(180deg);
+    translate: 40px 10px;
+  }
+  100%{
+  }
+}
+
+
+#Satelite{
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: Satelite-animate 10s infinite linear ;
+}
+@keyframes Satelite-animate {
+  0%{
+  }
+  50%{
+    transform: rotate(-30deg);
+    translate: 40px -30px;
+  }
+  100%{
+
+  }
+}
+
+
+
+#Earth{
+  transform-origin: center;
+transform-box: fill-box;
+  animation: Earth-animate 10s infinite linear;
+}
+
+@keyframes Earth-animate {
+  0%{
+  }
+  50%{
+    transform: rotate(-30deg);
+    translate: -40px 40px;
+  }
+  100%{
+
+  }
+}
+
