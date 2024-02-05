@@ -5,7 +5,7 @@ body{
 }
 
 .container{
-    width: 1200px;
+    width: 1300px;
 }
 
 
@@ -48,7 +48,7 @@ body{
   }
 
 
-/* 
+
   #aghab-4{
     transform-origin: center;
     transform-box: fill-box;
@@ -85,7 +85,26 @@ body{
         100% {
             transform: translate(0px);
         }
-  } */
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  #Sun{
+    transform: scale(1.1);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
 
 #enfejar{
     transform-origin: center;
@@ -102,6 +121,44 @@ body{
         100% {
             transform: scale(1);
         }
+}
+
+
+/* #zarat-ro{
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: zarat-ro-animate 5s infinite linear;
+}
+
+@keyframes zarat-ro-animate {
+  50%{
+    translate: -10px 10px;
+  }
+
+} */
+
+#text-error{
+  transform-origin: center;
+    transform-box: fill-box;
+    transform: scale(1.27);
+}
+
+#server-main{
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: server-main-animate 2s infinite linear;
+}
+
+@keyframes server-main-animate {
+  0%{
+    
+  }
+  50%{
+transform: scale(1.1);
+  }
+  100%{
+
+  }
 }
 
 
@@ -298,18 +355,47 @@ transform-box: fill-box;
 
 
 
+
+
+
 #Earth{
   transform-origin: center;
 transform-box: fill-box;
-  animation: Earth-animate 10s infinite linear;
+  animation: Earth-animate 15s infinite linear;
 }
 
 @keyframes Earth-animate {
   0%{
   }
+  25%{
+    transform: rotate(-30deg);
+    translate: -40px 50px;
+  }
+  50%{
+    transform: rotate(-60deg);
+    translate: 30px 90px;
+  }
+  75%{
+    transform: rotate(-30deg);
+    translate: -40px 50px;
+  }
+  100%{
+    
+  }
+}
+
+#Jupiter{
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: Jupiter-animate 10s infinite linear;
+}
+
+@keyframes Jupiter-animate {
+  0%{
+  }
   50%{
     transform: rotate(-30deg);
-    translate: -40px 40px;
+    translate: 30px 20px;
   }
   100%{
 
